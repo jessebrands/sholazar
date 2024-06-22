@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-gray-200;
+    @apply bg-gray-950;
+    @apply selection:bg-gray-600;
+    @apply select-none;
+}
